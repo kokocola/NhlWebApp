@@ -712,11 +712,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj",
+      "projectUniqueName": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj",
       "projectName": "Lib",
-      "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj",
+      "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj",
       "packagesPath": "C:\\Users\\mattc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\obj\\",
+      "outputPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

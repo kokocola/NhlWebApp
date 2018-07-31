@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhlDAL", "NhlDAL\NhlDAL.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApi", "TestApi\TestApi.csproj", "{DB184293-F30D-4CC3-9B72-8242AF35DEEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsApi", "StatsApi\StatsApi.csproj", "{52E1D939-3681-451C-9651-4131114014B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatsApi", "StatsApi\StatsApi.csproj", "{52E1D939-3681-451C-9651-4131114014B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NhlApi", "NhlApi\NhlApi.csproj", "{3010A6C2-7093-499D-AF87-949EB9AA041E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NhlApi", "NhlApi\NhlApi.csproj", "{3010A6C2-7093-499D-AF87-949EB9AA041E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatsApiUnitTests", "StatsApiUnitTests\StatsApiUnitTests.csproj", "{95AB935E-F0BA-43A6-A62D-2330B4E31DF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3010A6C2-7093-499D-AF87-949EB9AA041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3010A6C2-7093-499D-AF87-949EB9AA041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3010A6C2-7093-499D-AF87-949EB9AA041E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AB935E-F0BA-43A6-A62D-2330B4E31DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AB935E-F0BA-43A6-A62D-2330B4E31DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AB935E-F0BA-43A6-A62D-2330B4E31DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AB935E-F0BA-43A6-A62D-2330B4E31DF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

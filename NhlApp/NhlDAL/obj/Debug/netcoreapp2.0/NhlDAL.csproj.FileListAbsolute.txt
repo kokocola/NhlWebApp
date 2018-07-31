@@ -38,3 +38,16 @@ C:\Users\matthew_ko\Dropbox\OwnProjects\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\Nh
 C:\Users\matthew_ko\Dropbox\OwnProjects\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.csproj.CopyComplete
 C:\Users\matthew_ko\Dropbox\OwnProjects\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.dll
 C:\Users\matthew_ko\Dropbox\OwnProjects\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.pdb
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\NhlDAL.deps.json
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\NhlDAL.dll
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\NhlDAL.pdb
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\Lib.dll
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\StatsApi.dll
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\Lib.pdb
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\bin\Debug\netcoreapp2.0\StatsApi.pdb
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.csprojResolveAssemblyReference.cache
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.csproj.CoreCompileInputs.cache
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.AssemblyInfoInputs.cache
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.AssemblyInfo.cs
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.dll
+C:\Users\mattc\Documents\OwnProjects\NhlWebApp\NhlApp\NhlDAL\obj\Debug\netcoreapp2.0\NhlDAL.pdb

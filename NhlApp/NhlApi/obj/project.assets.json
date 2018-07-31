@@ -2842,6 +2842,19 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "Ninject/3.3.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Reflection.Emit.ILGeneration": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Ninject.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Ninject.dll": {}
+        }
+      },
       "NuGet.Frameworks/4.0.0": {
         "type": "package",
         "dependencies": {
@@ -7948,6 +7961,19 @@
         "newtonsoft.json.bson.nuspec"
       ]
     },
+    "Ninject/3.3.4": {
+      "sha512": "CmbWW97FfJuh4LEOVZM/spqXl4KAulRUjqeMwRd5J9rDMQArmIYaDMU3pyzXXHT062tbF0OPIMwI7tSOtprPfg==",
+      "type": "package",
+      "path": "ninject/3.3.4",
+      "files": [
+        "lib/net45/Ninject.dll",
+        "lib/net45/Ninject.xml",
+        "lib/netstandard2.0/Ninject.dll",
+        "lib/netstandard2.0/Ninject.xml",
+        "ninject.3.3.4.nupkg.sha512",
+        "ninject.nuspec"
+      ]
+    },
     "NuGet.Frameworks/4.0.0": {
       "sha512": "WCkN68c8q+USG+Ot1MmBDH+9DUo5dk7UB0QDMiwCYhrH7ZoFLKFGGNzJ8C3LTR1DvB1LW9BOxKeznnZznKiCTA==",
       "type": "package",
@@ -12912,7 +12938,8 @@
       "Microsoft.AspNetCore.All >= 2.0.3",
       "Microsoft.NETCore.App >= 2.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.0.1",
-      "NhlDAL >= 1.0.0"
+      "NhlDAL >= 1.0.0",
+      "Ninject >= 3.3.4"
     ]
   },
   "packageFolders": {
@@ -12926,11 +12953,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlApi\\NhlApi.csproj",
+      "projectUniqueName": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlApi\\NhlApi.csproj",
       "projectName": "NhlApi",
-      "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlApi\\NhlApi.csproj",
+      "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlApi\\NhlApi.csproj",
       "packagesPath": "C:\\Users\\mattc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlApi\\obj\\",
+      "outputPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -12951,11 +12978,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlDAL\\NhlDAL.csproj": {
-              "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlDAL\\NhlDAL.csproj"
+            "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlDAL\\NhlDAL.csproj": {
+              "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlDAL\\NhlDAL.csproj"
             },
-            "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj": {
-              "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj"
+            "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj": {
+              "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj"
             }
           }
         }
@@ -12981,6 +13008,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[2.0.1, )"
+          },
+          "Ninject": {
+            "target": "Package",
+            "version": "[3.3.4, )"
           }
         },
         "imports": [

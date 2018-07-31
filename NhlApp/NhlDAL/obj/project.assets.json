@@ -750,11 +750,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlDAL\\NhlDAL.csproj",
+      "projectUniqueName": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlDAL\\NhlDAL.csproj",
       "projectName": "NhlDAL",
-      "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlDAL\\NhlDAL.csproj",
+      "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlDAL\\NhlDAL.csproj",
       "packagesPath": "C:\\Users\\mattc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlDAL\\obj\\",
+      "outputPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlDAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -775,11 +775,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj": {
-              "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\NhlLib\\Lib.csproj"
+            "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj": {
+              "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\NhlLib\\Lib.csproj"
             },
-            "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\StatsApi\\StatsApi.csproj": {
-              "projectPath": "C:\\Users\\mattc\\Dropbox\\OwnProjects\\NhlApp\\StatsApi\\StatsApi.csproj"
+            "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\StatsApi\\StatsApi.csproj": {
+              "projectPath": "C:\\Users\\mattc\\Documents\\OwnProjects\\NhlWebApp\\NhlApp\\StatsApi\\StatsApi.csproj"
             }
           }
         }
