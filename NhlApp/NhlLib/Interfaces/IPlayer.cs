@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NhlLib.Classes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -8,6 +9,10 @@ namespace NhlLib.Interfaces
     {
         int Id { get; set; }
 
-        string FullName { get; set; }
+        string FirstName { get; set; }
+
+        string LastName { get; set; }
+
+        PositionType Position { get; set; }
     }
 }

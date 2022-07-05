@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WLTU45AJU/ZTiVoKj7qSFG+dYgIUy+eFX7ef98qoXurezeJE3YH7Fj4qyMi31U7VNiCPCs8Slj9CRKnIEosqnw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\NhlWebApp\\NhlApp\\StatsApi\\StatsApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattc\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\mattc\\.nuget\\packages\\serilog\\2.11.0\\serilog.2.11.0.nupkg.sha512",
+    "C:\\Users\\mattc\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
+    "C:\\Users\\mattc\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\mattc\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\mattc\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

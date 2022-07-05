@@ -10,7 +10,7 @@ namespace StatsApiUnitTests
         {
             //var result = StatsApiAdapter.GetAllTeams();
 
-            Assert.False(result, "1 should not be prime");
+            //Assert.False(result, "1 should not be prime");
         }
     }
 }

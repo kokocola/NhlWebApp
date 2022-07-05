@@ -8,7 +8,7 @@ namespace Lib.Interfaces.Services
 {
     public interface INhlService
     {
-        IList<ITeam> GetAllTeams();
+        IList<Team> GetAllTeams();
 
         ITeam GetTeamById(int id);
     }

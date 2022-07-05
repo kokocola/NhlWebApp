@@ -1,0 +1,15 @@
+C:\Projects\NhlWebApp\NhlApp\StatsApi\bin\Debug\net6.0\StatsApi.deps.json
+C:\Projects\NhlWebApp\NhlApp\StatsApi\bin\Debug\net6.0\StatsApi.dll
+C:\Projects\NhlWebApp\NhlApp\StatsApi\bin\Debug\net6.0\StatsApi.pdb
+C:\Projects\NhlWebApp\NhlApp\StatsApi\bin\Debug\net6.0\Lib.dll
+C:\Projects\NhlWebApp\NhlApp\StatsApi\bin\Debug\net6.0\Lib.pdb
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.csproj.AssemblyReference.cache
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.AssemblyInfoInputs.cache
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.AssemblyInfo.cs
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.csproj.CoreCompileInputs.cache
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.csproj.CopyComplete
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.dll
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\refint\StatsApi.dll
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\StatsApi.pdb
+C:\Projects\NhlWebApp\NhlApp\StatsApi\obj\Debug\net6.0\ref\StatsApi.dll

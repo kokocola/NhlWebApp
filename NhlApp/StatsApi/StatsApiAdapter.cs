@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 using Lib.Interfaces.Services;
+using NhlLib;
 
 namespace StatsApi
 {
@@ -20,7 +21,7 @@ namespace StatsApi
             { ApiEndpoints.Schedule, "schedule" },
             { ApiEndpoints.Game, "game" }
         };
-        public IList<ITeam> GetAllTeams()
+        public IList<Team> GetAllTeams()
         {
             var apiTeams = ApiUtility.GetDeserializeObject<StatTeamApi>($"{baseApiUrl}{endpoints[ApiEndpoints.Teams]}");
             return apiTeams.Teams ?? null;
@@ -32,10 +33,28 @@ namespace StatsApi
             return team ?? null;
         }
 
-        public IList<RosterPlayer> GetTeamRoster(int id)
+        public StatsApiPlayer GetPlayerById(int id)
         {
-            var apiTeamRoster = ApiUtility.GetDeserializeObject<StatPlayerApi>($"{baseApiUrl}{endpoints[ApiEndpoints.Teams]}/{id}/roster");
-            return apiTeamRoster.Roster ?? null;
+            var player = ApiUtility.GetDeserializeObject<StatsApiPlayers>($"{baseApiUrl}{endpoints[ApiEndpoints.People]}/{id}").People.FirstOrDefault();
+            return player;
+        }
+
+        public PlayerStats GetPlayerSeasonStats(int id, int seasonStartYear, int seasonEndYear, TypeOfGame game = TypeOfGame.Regular)
+        {
+            var url = $"{baseApiUrl}{endpoints[ApiEndpoints.People]}/{id}/stats?season={seasonStartYear}{seasonEndYear}&stats=statsSingleSeason";
+            var stat = ApiUtility.GetDeserializeObject<StatsPlayerPerSeason>(url);
+            var playerStats = stat.Stats.FirstOrDefault()?.Splits.FirstOrDefault()?.Stat;
+            if (playerStats != null) {
+                playerStats.SeasonStart = seasonStartYear;
+                playerStats.SeasonEnd = seasonEndYear;
+            }
+            return playerStats;
+        }
+
+        public IList<StatApiRosterPlayer> GetTeamRoster(int id)
+        {
+            var apiTeamRoster = ApiUtility.GetDeserializeObject<StatApiTeamRoster>($"{baseApiUrl}{endpoints[ApiEndpoints.Teams]}/{id}/roster");
+            return apiTeamRoster?.Roster?.ToList();
         }
     }
 }

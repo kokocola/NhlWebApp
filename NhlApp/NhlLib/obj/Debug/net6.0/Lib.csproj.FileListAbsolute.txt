@@ -1,0 +1,12 @@
+C:\Projects\NhlWebApp\NhlApp\NhlLib\bin\Debug\net6.0\Lib.deps.json
+C:\Projects\NhlWebApp\NhlApp\NhlLib\bin\Debug\net6.0\Lib.dll
+C:\Projects\NhlWebApp\NhlApp\NhlLib\bin\Debug\net6.0\Lib.pdb
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.csproj.AssemblyReference.cache
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.AssemblyInfoInputs.cache
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.AssemblyInfo.cs
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.csproj.CoreCompileInputs.cache
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.dll
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\refint\Lib.dll
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\Lib.pdb
+C:\Projects\NhlWebApp\NhlApp\NhlLib\obj\Debug\net6.0\ref\Lib.dll
