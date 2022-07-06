@@ -25,7 +25,7 @@ namespace NhlApi.Controllers
             _logger.LogInformation("Calling Get All Teams!!!");
             var item = ApiUtility.SerializeObject(nhlService.GetAllTeams());
             if (item == null)
-            {
+            { 
                 return NotFound();
             }
             return Ok(item);
