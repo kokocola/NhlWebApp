@@ -1,9 +1,0 @@
-C:\Users\mattc\source\repos\NhlApp\NhlLib\bin\Debug\netcoreapp2.0\NhlLib.deps.json
-C:\Users\mattc\source\repos\NhlApp\NhlLib\bin\Debug\netcoreapp2.0\NhlLib.dll
-C:\Users\mattc\source\repos\NhlApp\NhlLib\bin\Debug\netcoreapp2.0\NhlLib.pdb
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.csprojResolveAssemblyReference.cache
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.csproj.CoreCompileInputs.cache
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.AssemblyInfoInputs.cache
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.AssemblyInfo.cs
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.dll
-C:\Users\mattc\source\repos\NhlApp\NhlLib\obj\Debug\netcoreapp2.0\NhlLib.pdb
