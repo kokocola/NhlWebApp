@@ -1,3 +1,4 @@
+using Lib.Logger.ColorConsoleLogger;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -22,7 +23,15 @@ namespace NhlStatApi
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .UseSerilog()
+                .ConfigureLogging(builder =>
+                builder.ClearProviders()
+                    .AddColorConsoleLogger(configuration =>
+                    {
+                        // Replace warning value from appsettings.json of "Cyan"
+                        configuration.LogLevels[LogLevel.Warning] = ConsoleColor.DarkCyan;
+                        // Replace warning value from appsettings.json of "Red"
+                        configuration.LogLevels[LogLevel.Error] = ConsoleColor.DarkRed;
+                    }))
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();

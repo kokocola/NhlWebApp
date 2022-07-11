@@ -23,6 +23,7 @@ namespace NhlApi.Controllers
         public IActionResult Get()
         {
             _logger.LogInformation("Calling Get All Teams!!!");
+            _logger.LogError("Calling Get All Teams Error!!!");
             var item = ApiUtility.SerializeObject(nhlService.GetAllTeams());
             if (item == null)
             { 

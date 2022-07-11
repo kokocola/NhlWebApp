@@ -22,11 +22,7 @@ namespace NhlStatApi
     {
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
-
-            Log.Logger = new LoggerConfiguration()
-                    .ReadFrom.Configuration(configuration)
-                    .CreateLogger();
+            
         }
 
         public IConfiguration Configuration { get; }
@@ -61,7 +57,6 @@ namespace NhlStatApi
             app.UseRouting();
 
             app.UseAuthorization();
-            app.UseSerilogRequestLogging(); // <-- Add this line
 
             app.UseEndpoints(endpoints =>
             {

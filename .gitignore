@@ -1,0 +1,9 @@
+**/bin/**
+**/obj/**
+*.vs
+Backup/**
+UpgradeLog.htm
+**/*.suo
+**/*.user
+**/node_modules/**
+.DS_Store
